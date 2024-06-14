@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-// First Pattern:
+
 /*
      1
      1 2
@@ -10,37 +10,15 @@ int main(){
      1 2 3 4
      1 2 3 4 5 
      1 2 3 4 5 6 
-     1 2 3 4 5 6
+     1 2 3 4 5 6 7
 */    
-       
-
-// Second Pattern:
-/*
-    A
-    A B
-    A B C
-    A B C D
-    A B C D E
-*/  
 
 
-// Third Pattern:
-/*
-       10
-       10 11
-       10 11 12
-       10 11 12 13
-       10 11 12 13 14
-       10 11 12 13 14 15
-*/     
-
-
-// Fourth Pattern:
-/*
-      A B C D
-      A B C
-      A B
-      A
-*/
+for(int row=1; row<=7; row++){
+    for(int col=1; col<=row; col++){
+        cout<<col<<" ";
+    }
+    cout<<endl;
+}
 
 }

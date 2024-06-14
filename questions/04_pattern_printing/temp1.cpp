@@ -11,36 +11,12 @@ int main(){
        4 4 4 4 4 4 
 */
 
-// Second Pattern:
-/*
-       1 4 9 16 25
-       1 4 9 16 25
-       1 4 9 16 25
-       1 4 9 16 25
-       1 4 9 16 25
-       1 4 9 16 25
-*/
+    for(int i=1; i<=5; i++){
+        for(int j=1; j<=5; j++){
+            cout<<4<<" ";
+        }
+        cout<<endl;
+    }
 
-
-// Third Pattern:
-/*
-    1 8 27 64 125 216
-    1 8 27 64 125 216
-    1 8 27 64 125 216
-    1 8 27 64 125 216
-    1 8 27 64 125 216
-*/
-
-   
-
-
-// Fourth Pattern:
-/*
-    F G H I J K  
-    F G H I J K
-    F G H I J K
-    F G H I J K
-    F G H I J K
-*/
 
 }

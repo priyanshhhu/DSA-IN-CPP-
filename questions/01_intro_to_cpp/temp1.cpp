@@ -17,7 +17,10 @@ cout<<a-b<<endl;
 cout<<"6*3"<<endl;
 
 // If we have only 4 bits, How 3 and -6 will be written in 4 bits.
+// 3 -> 0011
+// -6 -> 1010
 
 // If we have only 5 bits, How 13 and -16 will be written in 5 bits.
-
+// 13 -> 01101 
+// -16 -> 10000
 }
